@@ -1,0 +1,64 @@
+{
+    "type": "extension",
+    "id": "com.terra-it.sections",
+    "version": "1.666",
+    "revision": 2,
+    "compatibility": "4.2+",
+    "title": "Sections",
+    "description": "",
+    "keywords": [
+        ""
+    ],
+    "author": {
+        "name": "Terra-it Webdesign",
+        "url": "http://www.terra-it.com/",
+        "email": "info@terra-it.com"
+    },
+    "licenses": null,
+    "components": {
+        "module_groups": [],
+        "modules": [],
+        "templates": [
+            false
+        ],
+        "callouts": [],
+        "settings": [
+            {
+                "id": "com.terra-it.sections*sections-settings-calloutgroup",
+                "value": "1",
+                "type": "text",
+                "options": "{\n    \"validation\": \"numeric\",\n    \"sub_type\": \"\"\n}",
+                "name": "Sections settings Calloutgroup",
+                "description": "",
+                "locked": "on",
+                "system": "",
+                "encrypted": "",
+                "extension": "com.terra-it.sections"
+            }
+        ],
+        "feeds": [],
+        "field_types": [
+            {
+                "id": "com.terra-it.sections*sections",
+                "name": "Sections",
+                "use_cases": {
+                    "templates": "on",
+                    "modules": "on",
+                    "callouts": "on",
+                    "settings": "on"
+                },
+                "self_draw": "on",
+                "extension": null
+            },
+            {
+                "id": "com.terra-it.sections*sections-callouts",
+                "name": "Section Callouts",
+                "use_cases": null,
+                "self_draw": "on",
+                "extension": "com.terra-it.sections"
+            }
+        ],
+        "tables": []
+    },
+    "sql_revisions": []
+}
